@@ -5,13 +5,17 @@ import App from './App.jsx'
  import Header from './App.jsx';
  import {HeaderAdvance, HeaderComponent} from './components/header/Header.jsx';
 import { Footer } from './components/footer/Footer.jsx';
+import ReactProps from './props/example1.jsx';
  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <HeaderComponent />
-    <HeaderAdvance/>
-    <Footer/>
+    <App/>
+
+    {/* <HeaderComponent />
+     <HeaderAdvance/>
+     <Footer/> */}
+     {/* <ReactProps/>   */}
+     
    </StrictMode>
 )

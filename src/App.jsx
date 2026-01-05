@@ -1,11 +1,22 @@
 import React from "react";
+import ReactProps from "./props/example1";
 
-function Header(){
+export default function App(){
+  const num = 10;
+  const str = "This is String";
+  const arr = [10, 20, 30, 40];
+  const names={
+    name1: "ranjith",
+    name2: "Rajkumar",
+    name3: "Arya"
+  };
+   
+
   return(
-    <div>
-      <h1 className="text-center bg-amber-200 text-2xl font-extrabold p-2">Hello World</h1>
+    <div>     
+      <ReactProps number={num} string={str} array={arr} object={names} />
     </div>
   )
 }
 
-export default Header;
+ 
