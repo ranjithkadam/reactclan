@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReactProps= ({number,string, array, object}) =>{
+const ReactProps1= ({number,string, array, object}) =>{
     const {name1, name2, name3} = object
     const [num1, num2, num3, num4] = array;
     return(
@@ -13,4 +13,4 @@ const ReactProps= ({number,string, array, object}) =>{
     )
 }
 
-export default ReactProps;
+export default ReactProps1;
