@@ -15,14 +15,16 @@ import ReactForms from '../ReactForms'
 export default function RoutingApp() {
   return (
     <>
+    
     <header className='sticky top-0.5 z-10 w-full'>
         <div className='bg-white text-blue-600 font-bold p-3 shadow text-3xl'><h1>React Full Course</h1></div>
          
     </header>
   <div className='sm:flex sm:justify-between '> 
+    
     <Navbar/>
     <Routes>
-        <Route path='/' element={<ReactIntro/>}/>
+        <Route path='/intro' element={<ReactIntro/>}/>
         <Route path='/components' element={<ReactComponents/>}/>
         <Route path='/props' element={<ReactProps/>}/>
         <Route path='/states' element={<ReactState/>}/>
