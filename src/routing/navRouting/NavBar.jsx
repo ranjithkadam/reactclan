@@ -14,6 +14,8 @@ function Navbar() {
       <Link to="/fragments"><li className="py-2 px-1 hover:bg-blue-100 hover:shadow">React-Fragments</li></Link>
       <Link to="/routing"><li className="py-2 px-1 hover:bg-blue-100 hover:shadow">React-Routing</li></Link>
       <Link to="/forms"><li className="py-2 px-1 hover:bg-blue-100 hover:shadow">React-Forms</li></Link>
+      <Link to="/useEffect"><li className="py-2 px-1 hover:bg-blue-100 hover:shadow">React-useEffect</li></Link>
+
     </nav>
   );
 }

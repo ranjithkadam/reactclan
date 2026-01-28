@@ -9,6 +9,7 @@ import Fragments from "./fragments/Fragments";
 import ConditionalRendering, { TernaryCondtion } from "./conditionalRendering/ConditionalRendering";
 import Register from "./formValidation/Register";
 import Login from "./formValidation/Login";
+import UseEffect from "./useEffect/UseEffect";
  
 export default function App(){
   
@@ -26,7 +27,8 @@ export default function App(){
       <ConditionalRendering/>
       <TernaryCondtion/> */}
       {/* <Register/> */}
-      <Login/>
+      {/* <Login/> */}
+      <UseEffect/>
     </div>
   )
 }

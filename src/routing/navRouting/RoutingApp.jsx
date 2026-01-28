@@ -11,6 +11,7 @@ import ReactConditionalRendering from '../ReactConditionalRendering'
 import ReactFragments from '../ReactFragments'
 import ReactRouting from '../ReactRouting'
 import ReactForms from '../ReactForms'
+import ReactUseEffect from '../ReactUseEffect'
 
 export default function RoutingApp() {
   return (
@@ -34,6 +35,7 @@ export default function RoutingApp() {
         <Route path='/fragments' element={<ReactFragments/>}/>
         <Route path='/routing' element={<ReactRouting/>}/>
         <Route path='/forms' element={<ReactForms/>}/>
+        <Route path='/useEffect' element={<ReactUseEffect/>}/>
         
     </Routes>
 
